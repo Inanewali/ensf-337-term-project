@@ -32,7 +32,7 @@ void testing(){
     while (choice != 0){
         switch(menu()){
             case 1:
-                f.show_seat_map()
+                display_seat_map()
                 pressEnter();
                 break;
             case 2:
