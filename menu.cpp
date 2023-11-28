@@ -36,7 +36,7 @@ void testing(){
                 pressEnter();
                 break;
             case 2:
-                displayPassenger();
+                display_info();
                 pressEnter();
                 break;
             case 3:
