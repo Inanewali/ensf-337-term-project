@@ -44,3 +44,18 @@ void Passenger::set_phone(const string& input) {
 void Passenger::set_seat(Seat* new_seat) {
     seat = new_seat;
 }
+
+void Passenger::display_info() const {
+    std::cout << "Passenger Information:\n";
+    std::cout << "First Name: " << fname << "\n";
+    std::cout << "Last Name: " << lname << "\n";
+    std::cout << "Phone Number: " << phone << "\n";
+
+    if (seat) {
+        std::cout << "Seat: " << seat->get_row() << seat->get_columns() << "\n";
+    } else {
+        std::cout << "Seat: Not assigned\n";
+    }
+
+    std::cout << "------------------------\n";
+}
