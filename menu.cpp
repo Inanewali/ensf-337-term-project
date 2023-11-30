@@ -1,6 +1,12 @@
 #include<vector>
 #include<string>
 #include <iostream>
+#include "flight.h"
+#include "airline.h"
+#include "passenger.h"
+#include "seat.h"
+
+
 using namespace std;
 
 int main(){
